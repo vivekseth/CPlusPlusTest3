@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320AAC76167FB01C005B7039 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 320AAC74167FB01C005B7039 /* Node.cpp */; };
 		323810D5167EFC00004AC621 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 323810D4167EFC00004AC621 /* main.cpp */; };
 		323810D7167EFC00004AC621 /* CPlusPlusTest3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 323810D6167EFC00004AC621 /* CPlusPlusTest3.1 */; };
+		323810DF167F0251004AC621 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 323810DD167F0251004AC621 /* Person.cpp */; };
+		32B3B64C168FBB8D003CFAD6 /* TSPAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B3B648168FBB8D003CFAD6 /* TSPAlgorithm.cpp */; };
+		32B3B64D168FBB8D003CFAD6 /* TSP_Iterative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B3B64A168FBB8D003CFAD6 /* TSP_Iterative.cpp */; };
+		32F05740167FF02C00F0397A /* BSTNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F0573E167FF02C00F0397A /* BSTNode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +30,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		320AAC74167FB01C005B7039 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		320AAC75167FB01C005B7039 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		323810D0167EFC00004AC621 /* CPlusPlusTest3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPlusPlusTest3; sourceTree = BUILT_PRODUCTS_DIR; };
 		323810D4167EFC00004AC621 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		323810D6167EFC00004AC621 /* CPlusPlusTest3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CPlusPlusTest3.1; sourceTree = "<group>"; };
+		323810DD167F0251004AC621 /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		323810DE167F0251004AC621 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		32B3B648168FBB8D003CFAD6 /* TSPAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TSPAlgorithm.cpp; sourceTree = "<group>"; };
+		32B3B649168FBB8D003CFAD6 /* TSPAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPAlgorithm.h; sourceTree = "<group>"; };
+		32B3B64A168FBB8D003CFAD6 /* TSP_Iterative.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TSP_Iterative.cpp; sourceTree = "<group>"; };
+		32B3B64B168FBB8D003CFAD6 /* TSP_Iterative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSP_Iterative.h; sourceTree = "<group>"; };
+		32F0573D167FEBB600F0397A /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		32F0573E167FF02C00F0397A /* BSTNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSTNode.cpp; sourceTree = "<group>"; };
+		32F0573F167FF02C00F0397A /* BSTNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +76,18 @@
 		323810D3167EFC00004AC621 /* CPlusPlusTest3 */ = {
 			isa = PBXGroup;
 			children = (
+				32F0573D167FEBB600F0397A /* common.h */,
 				323810D4167EFC00004AC621 /* main.cpp */,
+				320AAC75167FB01C005B7039 /* Node.h */,
+				320AAC74167FB01C005B7039 /* Node.cpp */,
+				32F0573E167FF02C00F0397A /* BSTNode.cpp */,
+				32F0573F167FF02C00F0397A /* BSTNode.h */,
+				323810DE167F0251004AC621 /* Person.h */,
+				323810DD167F0251004AC621 /* Person.cpp */,
+				32B3B648168FBB8D003CFAD6 /* TSPAlgorithm.cpp */,
+				32B3B649168FBB8D003CFAD6 /* TSPAlgorithm.h */,
+				32B3B64A168FBB8D003CFAD6 /* TSP_Iterative.cpp */,
+				32B3B64B168FBB8D003CFAD6 /* TSP_Iterative.h */,
 				323810D6167EFC00004AC621 /* CPlusPlusTest3.1 */,
 			);
 			path = CPlusPlusTest3;
@@ -118,6 +145,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				323810D5167EFC00004AC621 /* main.cpp in Sources */,
+				323810DF167F0251004AC621 /* Person.cpp in Sources */,
+				320AAC76167FB01C005B7039 /* Node.cpp in Sources */,
+				32F05740167FF02C00F0397A /* BSTNode.cpp in Sources */,
+				32B3B64C168FBB8D003CFAD6 /* TSPAlgorithm.cpp in Sources */,
+				32B3B64D168FBB8D003CFAD6 /* TSP_Iterative.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +242,7 @@
 				323810DC167EFC00004AC621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
